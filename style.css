@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  background-image: url("https://headtopics.com/images/2021/4/16/tec-mundo/filme-e-exibido-em-cinema-vazio-durante-a-pandemia-para-manter-recorde-1382887729428582403.webp");
+  background-color: #000000;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: red;
+  margin: 0 0 50px;
+  font-size: 50px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+}
+
+#ulAnimacoes imagens {
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+#ulComedias imagens {
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+#ulSuspTerr imagens {
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+#ulFiccao imagens {
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+ul img {
+  margin: 10px;
+  transition: 200ms;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+ul img:hover {
+  box-shadow: 0px 0px 8px 5px #c70c0c;
+}
+
+h3 {
+  text-align: start;
+}
+
+label {
+  opacity: 0;
+  transition: 300ms;
+}
+
+li {
+  position: relative;
+  width: min-content;
+}
+
+#nome,
+#url,
+#imagem,
+#btnAdicionar,
+select {
+  margin: 5px;
+  color: black;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+#nome,
+#url,
+#imagem {
+  background: transparent;
+  color: white;
+}
+
+#opcoesCategoria {
+  padding: 2px;
+  color: white;
+  width: 170px;
+  background: grey;
+  border: none;
+}
+
+li button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+}
+
+#btnDeletar {
+  opacity: 0;
+  transition: 200ms;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+
+#btnDeletar img {
+  width: 35px;
+  height: auto;
+  margin: 0;
+  transition: 200ms;
+}
+
+#btnDeletar img:hover {
+  box-shadow: 0px 0px 4px 3.3px red;
+}
+
+::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fffa;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 3px;
+  }
+}
